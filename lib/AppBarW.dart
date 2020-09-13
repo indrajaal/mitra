@@ -38,7 +38,10 @@ class AppBarW extends StatelessWidget {
                     .copyWith(fontWeight: FontWeight.w800),
               ))
           : IconButton(
-              icon: Icon(CupertinoIcons.back, color: backButtonColor,),
+              icon: Icon(
+                CupertinoIcons.back,
+                color: backButtonColor,
+              ),
               onPressed: onPressed,
             ),
       actions: <Widget>[

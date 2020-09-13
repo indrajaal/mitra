@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class ListItem {
+class _ListItem {
   final WidgetBuilder bodyBuilder;
   final title;
   final String subtitle;
   bool isExpandedInitially;
 
-  ListItem({
+  _ListItem({
     @required this.bodyBuilder,
     this.title = '',
     this.subtitle = "",
@@ -33,7 +33,7 @@ class ListItem {
 }
 
 class EPanel extends StatefulWidget {
-  final List<ListItem> items;
+  final List<_ListItem> items;
 
   EPanel(this.items) {
     assert(new Set.from(items.map((li) => li.subtitle)).length == items.length);
