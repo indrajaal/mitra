@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class Category extends StatelessWidget {
   Category({
     this.caption,
+    this.bgColor,
     this.src,
     this.name,
     this.onTap,
@@ -18,6 +19,7 @@ class Category extends StatelessWidget {
   final double width;
   final double containerWidth;
   final double height;
+  final Color bgColor;
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +34,7 @@ class Category extends StatelessWidget {
             width: containerWidth,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(4.0),
-              color: theme.colorScheme.background,
+              color: bgColor,
               boxShadow: [
                 BoxShadow(
                     color: Colors.white60,
