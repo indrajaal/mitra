@@ -1,7 +1,6 @@
 library mitra;
 
 export 'src/Appbar.dart';
-export 'src/BottomLoader.dart';
 export 'src/Category.dart';
 export 'src/DialogBox.dart';
 export 'src/DrawerEPanel.dart';
