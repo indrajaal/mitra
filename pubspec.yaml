@@ -11,10 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker:
-  photo_view:
-  shared_preferences: ^0.5.7+3
-  flushbar: ^1.10.4
 
 dev_dependencies:
   flutter_test:
